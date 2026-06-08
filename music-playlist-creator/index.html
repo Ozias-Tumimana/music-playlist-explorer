@@ -10,18 +10,80 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <!-- Your header content here -->
+    <header class="site-header">
+        <div class="header-content">
+            <h1 class="site-title">Music Playlist Explorer</h1>
+            <nav class="main-nav">
+                <a href="featured.html" class="nav-link">Featured</a>
+                <a href="index.html" class="nav-link active">All Playlists</a>
+            </nav>
+        </div>
     </header>
 
-    <main> 
-        <!-- Your main content here -->
+    <main class="main-content">
+        <section class="playlist-gallery">
+            <div class="playlist-cards">
+                <!-- Playlist cards will be dynamically rendered here -->
+            </div>
+        </section>
     </main>
 
-    <footer>
-        <!-- Your footer content here -->
+    <footer class="site-footer">
+        <p>&copy; 2026 Music Playlist Explorer</p>
     </footer>
-    <script src="data/data.js"></script>
+
+    <!-- Modal for playlist details -->
+    <div id="playlist-modal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <button class="close-button" aria-label="Close modal">&times;</button>
+
+            <div class="modal-header">
+                <img src="assets/img/playlist.png" alt="Playlist cover" class="modal-playlist-cover">
+                <div class="modal-playlist-info">
+                    <h2 class="modal-playlist-title">Playlist Title</h2>
+                    <p class="modal-playlist-creator">Creator Name</p>
+                </div>
+            </div>
+
+            <div class="modal-body">
+                <div class="modal-actions">
+                    <button class="shuffle-button" aria-label="Shuffle songs">
+                        <span class="shuffle-icon">🔀</span> Shuffle
+                    </button>
+                </div>
+
+                <ul class="song-list">
+                    <li class="song-item">
+                        <img src="assets/img/song.png" alt="Song cover" class="song-cover">
+                        <div class="song-info">
+                            <p class="song-title">Song Title</p>
+                            <p class="song-artist">Artist Name</p>
+                            <p class="song-album">Album Name</p>
+                        </div>
+                        <span class="song-duration">0:00</span>
+                    </li>
+                    <li class="song-item">
+                        <img src="assets/img/song.png" alt="Song cover" class="song-cover">
+                        <div class="song-info">
+                            <p class="song-title">Song Title</p>
+                            <p class="song-artist">Artist Name</p>
+                            <p class="song-album">Album Name</p>
+                        </div>
+                        <span class="song-duration">0:00</span>
+                    </li>
+                    <li class="song-item">
+                        <img src="assets/img/song.png" alt="Song cover" class="song-cover">
+                        <div class="song-info">
+                            <p class="song-title">Song Title</p>
+                            <p class="song-artist">Artist Name</p>
+                            <p class="song-album">Album Name</p>
+                        </div>
+                        <span class="song-duration">0:00</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

@@ -34,7 +34,19 @@
         -Shuffles songs based on an algorithim. I don't believe it should be completely random. 
 
 ### Function Specs
-[Add function specs here as you plan each milestone]
+
+**renderPlaylistCards(playlists)**
+- **Purpose:** Dynamically creates and displays playlist cards on the homepage
+- **Input:** `playlists` (array of Playlist objects) — The array of playlists to render
+- **Output:** None (side effect: appends cards to DOM)
+- **DOM Target:** Appends each card to `.playlist-cards` container
+- **Fields Used:** title, creator, coverImage, likeCount, isLiked
+- **Behavior:** 
+  - Clears existing cards before rendering
+  - Iterates over playlists array
+  - Creates card HTML for each playlist
+  - Attaches click event listener to open modal
+  - Displays "No playlists found" message if array is empty
 
 ### AI Feature Spec (Milestone 8)
 [Leave blank — fill in before Milestone 8]
