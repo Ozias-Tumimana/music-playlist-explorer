@@ -1,7 +1,23 @@
 ## Music Playlist Explorer — Planning Spec
 
 ### Data Shape
-[Leave blank — fill in before Milestone 3]
+
+**Playlist Object:**
+- id (string) — Unique identifier for the playlist
+- title (string) — The name of the playlist displayed to users
+- creator (string) — Name of the person who created the playlist
+- coverImage (string) — Path or URL to the playlist's cover image
+- likeCount (number) — Current number of likes the playlist has received
+- isLiked (boolean) — Whether the current user has liked this playlist
+- songs (array of Song objects) — List of songs included in this playlist
+
+**Song Object:**
+- id (string) — Unique identifier for the song
+- title (string) — The name of the song
+- artist (string) — Name of the artist who performed the song
+- album (string) — Name of the album the song belongs to
+- duration (string) — Length of the song in MM:SS format
+- coverImage (string) — Path or URL to the song's cover art
 
 ### UI and Interaction Rules
 [Leave blank — fill in before Milestone 1]
