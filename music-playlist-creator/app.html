@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Your Cozy Music Corner</title>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="themes/theme-warm-lofi.css">
+    <link rel="stylesheet" href="app-layout.css">
+</head>
+<body class="app-layout">
+    <!-- Left Sidebar: Library (Resizable) -->
+    <aside class="app-sidebar" id="app-sidebar">
+        <div class="sidebar-header">
+            <h1 class="sidebar-logo">Your Cozy Music Corner</h1>
+        </div>
+
+        <nav class="sidebar-nav">
+            <a href="#" class="sidebar-link active" data-view="home">
+                <span class="sidebar-icon">🏠</span>
+                <span class="sidebar-text">Home</span>
+            </a>
+            <a href="#" class="sidebar-link" data-view="featured">
+                <span class="sidebar-icon">✨</span>
+                <span class="sidebar-text">Featured</span>
+            </a>
+        </nav>
+
+        <div class="sidebar-divider"></div>
+
+        <div class="sidebar-section">
+            <h3 class="sidebar-section-title">Your Library</h3>
+            <div class="library-playlists" id="library-playlists">
+                <!-- Playlists will be loaded here -->
+            </div>
+        </div>
+
+        <div class="sidebar-footer">
+            <p class="sidebar-tagline">Every playlist tells a story 🎶</p>
+        </div>
+
+        <!-- Resize Handle -->
+        <div class="sidebar-resize-handle" id="sidebar-resize-handle"></div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="app-main" id="app-main">
+        <div class="main-header">
+            <div class="main-header-content">
+                <div class="search-container-main">
+                    <span class="search-icon">🔍</span>
+                    <input
+                        type="text"
+                        id="main-search-input"
+                        class="search-input"
+                        placeholder="What do you want to listen to?"
+                        aria-label="Search playlists">
+                </div>
+                <div class="header-graphic">
+                    <div class="orb orb-1"></div>
+                    <div class="orb orb-2"></div>
+                    <div class="orb orb-3"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content" id="main-content">
+            <!-- Dynamic content loads here -->
+        </div>
+    </main>
+
+    <!-- Bottom Playbar (Persistent) -->
+    <div class="playbar" id="playbar">
+        <div class="playbar-content">
+            <!-- Left: Current Song Info -->
+            <div class="playbar-left">
+                <img src="assets/img/song.png" alt="Now playing" class="playbar-cover" id="playbar-cover">
+                <div class="playbar-info">
+                    <p class="playbar-title" id="playbar-title">Preview Mode</p>
+                    <p class="playbar-artist" id="playbar-artist">Select a song to start listening</p>
+                </div>
+            </div>
+
+            <!-- Center: Playback Controls -->
+            <div class="playbar-center">
+                <div class="playback-controls">
+                    <button class="control-btn" id="shuffle-btn" aria-label="Shuffle">
+                        <span class="control-icon">🔀</span>
+                    </button>
+                    <button class="control-btn" id="previous-btn" aria-label="Previous">
+                        <span class="control-icon">⏮</span>
+                    </button>
+                    <button class="control-btn-large" id="play-pause-btn" aria-label="Play">
+                        <span class="control-icon">▶</span>
+                    </button>
+                    <button class="control-btn" id="next-btn" aria-label="Next">
+                        <span class="control-icon">⏭</span>
+                    </button>
+                    <button class="control-btn" id="repeat-btn" aria-label="Repeat">
+                        <span class="control-icon">🔁</span>
+                    </button>
+                </div>
+                <div class="progress-container">
+                    <span class="progress-time" id="current-time">0:00</span>
+                    <div class="progress-bar" id="progress-bar">
+                        <div class="progress-fill" id="progress-fill"></div>
+                    </div>
+                    <span class="progress-time" id="total-time">0:00</span>
+                </div>
+            </div>
+
+            <!-- Right: Volume -->
+            <div class="playbar-right">
+                <div class="volume-control">
+                    <button class="control-btn" id="volume-btn" aria-label="Mute">
+                        <span class="control-icon">🔊</span>
+                    </button>
+                    <input type="range" min="0" max="100" value="70" class="volume-slider" id="volume-slider" aria-label="Volume">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for playlist details -->
+    <div id="playlist-modal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <button class="close-button" aria-label="Close modal">&times;</button>
+
+            <div class="modal-header">
+                <img src="assets/img/playlist.png" alt="Playlist cover" class="modal-playlist-cover">
+                <div class="modal-playlist-info">
+                    <h2 class="modal-playlist-title">Playlist Title</h2>
+                    <p class="modal-playlist-creator">Creator Name</p>
+                </div>
+            </div>
+
+            <div class="modal-body">
+                <div class="modal-actions">
+                    <button class="shuffle-button" aria-label="Shuffle songs">
+                        <span class="shuffle-icon">🔀</span> Shuffle
+                    </button>
+                    <button class="ai-description-button" aria-label="Get AI description">
+                        <span class="ai-icon">✨</span> Get Description
+                    </button>
+                </div>
+
+                <div class="ai-description-container hidden">
+                    <h3 class="ai-description-label">AI Description</h3>
+                    <p class="ai-description-text"></p>
+                </div>
+
+                <ul class="song-list"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="musicPlayer.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Outer vinyl record (black) -->
+  <circle cx="50" cy="50" r="48" fill="#3D2817"/>
+
+  <!-- Vinyl grooves (subtle circles) -->
+  <circle cx="50" cy="50" r="42" fill="none" stroke="#2A1A0F" stroke-width="0.5" opacity="0.5"/>
+  <circle cx="50" cy="50" r="38" fill="none" stroke="#2A1A0F" stroke-width="0.5" opacity="0.5"/>
+  <circle cx="50" cy="50" r="34" fill="none" stroke="#2A1A0F" stroke-width="0.5" opacity="0.5"/>
+  <circle cx="50" cy="50" r="30" fill="none" stroke="#2A1A0F" stroke-width="0.5" opacity="0.5"/>
+  <circle cx="50" cy="50" r="26" fill="none" stroke="#2A1A0F" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- Center label (peachy coral) -->
+  <circle cx="50" cy="50" r="18" fill="#FF9A76"/>
+
+  <!-- Center hole -->
+  <circle cx="50" cy="50" r="6" fill="#3D2817"/>
+
+  <!-- Shine/highlight -->
+  <path d="M 30 25 Q 40 20, 50 20 Q 60 20, 70 25" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="2" stroke-linecap="round"/>
+</svg>

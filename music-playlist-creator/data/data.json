@@ -3,435 +3,469 @@
     "id": "playlist-1",
     "title": "Chill Vibes",
     "creator": "Ozias Tumimana",
-    "coverImage": "assets/img/playlist.png",
+    "coverImage": "https://upload.wikimedia.org/wikipedia/en/2/28/Channel_ORANGE.jpg",
     "likeCount": 127,
-    "isLiked": false,
+    "liked": false,
+    "genre": "Chill",
     "songs": [
       {
         "id": "song-1-1",
-        "title": "Sunset Dreams",
-        "artist": "The Dreamers",
-        "album": "Evening Collection",
-        "duration": "3:45",
-        "coverImage": "assets/img/song.png"
+        "title": "Pyramids",
+        "artist": "Frank Ocean",
+        "album": "Channel Orange",
+        "duration": "9:53",
+        "coverImage": "https://upload.wikimedia.org/wikipedia/en/2/28/Channel_ORANGE.jpg"
       },
       {
         "id": "song-1-2",
-        "title": "Ocean Breeze",
-        "artist": "Coastal Sounds",
-        "album": "Water Music",
-        "duration": "4:12",
-        "coverImage": "assets/img/song.png"
+        "title": "Pink + White",
+        "artist": "Frank Ocean",
+        "album": "Blonde",
+        "duration": "3:04",
+        "coverImage": "https://upload.wikimedia.org/wikipedia/en/a/a0/Blonde_-_Frank_Ocean.jpeg"
       },
       {
         "id": "song-1-3",
-        "title": "Morning Coffee",
-        "artist": "Jazz Collective",
-        "album": "Café Sessions",
-        "duration": "3:28",
-        "coverImage": "assets/img/song.png"
+        "title": "Sunset",
+        "artist": "The Midnight",
+        "album": "Endless Summer",
+        "duration": "4:12",
+        "coverImage": "https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?w=400&h=400&fit=crop"
       },
       {
         "id": "song-1-4",
-        "title": "City Lights",
-        "artist": "Urban Beats",
-        "album": "Nightfall",
-        "duration": "4:01",
-        "coverImage": "assets/img/song.png"
+        "title": "3005",
+        "artist": "Childish Gambino",
+        "album": "Because the Internet",
+        "duration": "3:54",
+        "coverImage": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop"
       }
     ]
   },
   {
     "id": "playlist-2",
     "title": "Workout Energy",
-    "creator": "Jordan Lee",
-    "coverImage": "assets/img/playlist.png",
+    "creator": "Ozias Tumimana",
+    "coverImage": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400&h=400&fit=crop",
     "likeCount": 543,
-    "isLiked": false,
+    "liked": false,
+    "genre": "Workout",
     "songs": [
       {
         "id": "song-2-1",
-        "title": "Power Up",
-        "artist": "Fitness Beats",
-        "album": "Gym Anthems",
-        "duration": "3:15",
-        "coverImage": "assets/img/song.png"
+        "title": "A Lot",
+        "artist": "21 Savage ft. J. Cole",
+        "album": "I Am > I Was",
+        "duration": "4:48",
+        "coverImage": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=400&fit=crop"
       },
       {
         "id": "song-2-2",
-        "title": "No Limits",
-        "artist": "Motivation Squad",
-        "album": "Push Harder",
-        "duration": "3:52",
-        "coverImage": "assets/img/song.png"
+        "title": "SICKO MODE",
+        "artist": "Travis Scott",
+        "album": "Astroworld",
+        "duration": "5:12",
+        "coverImage": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop"
       },
       {
         "id": "song-2-3",
-        "title": "Beast Mode",
-        "artist": "Adrenaline Rush",
-        "album": "Intensity",
-        "duration": "3:33",
-        "coverImage": "assets/img/song.png"
+        "title": "No Role Modelz",
+        "artist": "J. Cole",
+        "album": "2014 Forest Hills Drive",
+        "duration": "4:53",
+        "coverImage": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=400&h=400&fit=crop"
       },
       {
         "id": "song-2-4",
-        "title": "Champion",
-        "artist": "Victory Sounds",
-        "album": "Winners Only",
-        "duration": "4:20",
-        "coverImage": "assets/img/song.png"
+        "title": "Going Bad",
+        "artist": "Meek Mill ft. Drake",
+        "album": "Championships",
+        "duration": "2:59",
+        "coverImage": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=400&h=400&fit=crop"
       },
       {
         "id": "song-2-5",
-        "title": "Unleashed",
-        "artist": "Raw Power",
-        "album": "Maximum Effort",
-        "duration": "3:44",
-        "coverImage": "assets/img/song.png"
+        "title": "HUMBLE.",
+        "artist": "Kendrick Lamar",
+        "album": "DAMN.",
+        "duration": "2:57",
+        "coverImage": "https://images.unsplash.com/photo-1487180144351-b8472da7d491?w=400&h=400&fit=crop"
       }
     ]
   },
   {
     "id": "playlist-3",
     "title": "Late Night Study",
-    "creator": "Sam Rivera",
-    "coverImage": "assets/img/playlist.png",
+    "creator": "Ozias Tumimana",
+    "coverImage": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=400&h=400&fit=crop",
     "likeCount": 289,
-    "isLiked": false,
+    "liked": false,
+    "genre": "Focus",
     "songs": [
       {
         "id": "song-3-1",
-        "title": "Focus Flow",
-        "artist": "Study Beats",
-        "album": "Concentration",
-        "duration": "5:10",
-        "coverImage": "assets/img/song.png"
+        "title": "Lost in Yesterday",
+        "artist": "Tame Impala",
+        "album": "The Slow Rush",
+        "duration": "3:37",
+        "coverImage": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&h=400&fit=crop"
       },
       {
         "id": "song-3-2",
-        "title": "Midnight Pages",
-        "artist": "Lo-Fi Collective",
-        "album": "Study Sessions",
-        "duration": "4:45",
-        "coverImage": "assets/img/song.png"
+        "title": "Redbone",
+        "artist": "Childish Gambino",
+        "album": "Awaken, My Love!",
+        "duration": "5:26",
+        "coverImage": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=400&h=400&fit=crop"
       },
       {
         "id": "song-3-3",
-        "title": "Brain Waves",
-        "artist": "Ambient Mind",
-        "album": "Deep Thinking",
-        "duration": "6:22",
-        "coverImage": "assets/img/song.png"
+        "title": "Pink Matter",
+        "artist": "Frank Ocean ft. André 3000",
+        "album": "Channel Orange",
+        "duration": "4:33",
+        "coverImage": "https://upload.wikimedia.org/wikipedia/en/2/28/Channel_ORANGE.jpg"
+      },
+      {
+        "id": "song-3-4",
+        "title": "Self Control",
+        "artist": "Frank Ocean",
+        "album": "Blonde",
+        "duration": "4:09",
+        "coverImage": "https://upload.wikimedia.org/wikipedia/en/a/a0/Blonde_-_Frank_Ocean.jpeg"
       }
     ]
   },
   {
     "id": "playlist-4",
     "title": "Road Trip Classics",
-    "creator": "Casey Johnson",
-    "coverImage": "assets/img/playlist.png",
+    "creator": "Ozias Tumimana",
+    "coverImage": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=400&h=400&fit=crop",
     "likeCount": 892,
-    "isLiked": false,
+    "liked": false,
+    "genre": "Travel",
     "songs": [
       {
         "id": "song-4-1",
-        "title": "Highway Stars",
-        "artist": "Rock Legends",
-        "album": "Greatest Hits",
-        "duration": "4:15",
-        "coverImage": "assets/img/song.png"
+        "title": "Feel Good Inc.",
+        "artist": "Gorillaz",
+        "album": "Demon Days",
+        "duration": "3:41",
+        "coverImage": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop"
       },
       {
         "id": "song-4-2",
-        "title": "Open Road",
-        "artist": "Freedom Riders",
-        "album": "Journey",
-        "duration": "3:58",
-        "coverImage": "assets/img/song.png"
+        "title": "Nights",
+        "artist": "Frank Ocean",
+        "album": "Blonde",
+        "duration": "5:07",
+        "coverImage": "https://upload.wikimedia.org/wikipedia/en/a/a0/Blonde_-_Frank_Ocean.jpeg"
       },
       {
         "id": "song-4-3",
-        "title": "Summer Nights",
-        "artist": "Beach Boys Revival",
-        "album": "Coastal Dreams",
-        "duration": "3:42",
-        "coverImage": "assets/img/song.png"
+        "title": "Sky",
+        "artist": "Playboi Carti",
+        "album": "Whole Lotta Red",
+        "duration": "3:11",
+        "coverImage": "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=400&h=400&fit=crop"
       },
       {
         "id": "song-4-4",
-        "title": "Wind in My Hair",
-        "artist": "Classic Rock",
-        "album": "Road Anthems",
+        "title": "STARGAZING",
+        "artist": "Travis Scott",
+        "album": "Astroworld",
         "duration": "4:30",
-        "coverImage": "assets/img/song.png"
+        "coverImage": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=400&h=400&fit=crop"
       },
       {
         "id": "song-4-5",
-        "title": "Miles to Go",
-        "artist": "The Wanderers",
-        "album": "Adventure Calls",
-        "duration": "5:05",
-        "coverImage": "assets/img/song.png"
+        "title": "Pursuit of Happiness",
+        "artist": "Kid Cudi ft. MGMT",
+        "album": "Man On The Moon",
+        "duration": "4:55",
+        "coverImage": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=400&fit=crop"
       },
       {
         "id": "song-4-6",
-        "title": "Rest Stop Blues",
-        "artist": "Highway Band",
-        "album": "Traveler's Tales",
-        "duration": "3:50",
-        "coverImage": "assets/img/song.png"
+        "title": "LOVE.",
+        "artist": "Kendrick Lamar ft. Zacari",
+        "album": "DAMN.",
+        "duration": "3:33",
+        "coverImage": "https://images.unsplash.com/photo-1487180144351-b8472da7d491?w=400&h=400&fit=crop"
       }
     ]
   },
   {
     "id": "playlist-5",
     "title": "Sunday Brunch",
-    "creator": "Taylor Swift",
-    "coverImage": "assets/img/playlist.png",
+    "creator": "Ozias Tumimana",
+    "coverImage": "https://images.unsplash.com/photo-1466637574441-749b8f19452f?w=400&h=400&fit=crop",
     "likeCount": 456,
-    "isLiked": false,
+    "liked": false,
+    "genre": "Brunch",
     "songs": [
       {
         "id": "song-5-1",
-        "title": "Lazy Morning",
-        "artist": "Acoustic Soul",
-        "album": "Peaceful Days",
-        "duration": "3:35",
-        "coverImage": "assets/img/song.png"
+        "title": "Ivy",
+        "artist": "Frank Ocean",
+        "album": "Blonde",
+        "duration": "4:09",
+        "coverImage": "https://upload.wikimedia.org/wikipedia/en/a/a0/Blonde_-_Frank_Ocean.jpeg"
       },
       {
         "id": "song-5-2",
-        "title": "Pancakes & Jazz",
-        "artist": "Smooth Quartet",
-        "album": "Brunch Vibes",
-        "duration": "4:18",
-        "coverImage": "assets/img/song.png"
+        "title": "Electric Feel",
+        "artist": "MGMT",
+        "album": "Oracular Spectacular",
+        "duration": "3:49",
+        "coverImage": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&h=400&fit=crop"
       },
       {
         "id": "song-5-3",
-        "title": "Sunshine State",
-        "artist": "Happy Folk",
-        "album": "Good Times",
-        "duration": "3:22",
-        "coverImage": "assets/img/song.png"
+        "title": "Sunday Candy",
+        "artist": "Donnie Trumpet & The Social Experiment",
+        "album": "Surf",
+        "duration": "3:59",
+        "coverImage": "https://images.unsplash.com/photo-1466637574441-749b8f19452f?w=400&h=400&fit=crop"
       },
       {
         "id": "song-5-4",
-        "title": "Mimosa Mood",
-        "artist": "Chill Ensemble",
-        "album": "Weekend Feels",
-        "duration": "4:05",
-        "coverImage": "assets/img/song.png"
+        "title": "Sober",
+        "artist": "Childish Gambino",
+        "album": "Kauai",
+        "duration": "4:11",
+        "coverImage": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop"
       }
     ]
   },
   {
     "id": "playlist-6",
     "title": "Dance Floor Hits",
-    "creator": "DJ Nova",
-    "coverImage": "assets/img/playlist.png",
+    "creator": "Ozias Tumimana",
+    "coverImage": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=400&fit=crop",
     "likeCount": 1247,
-    "isLiked": false,
+    "liked": false,
+    "genre": "Party",
     "songs": [
       {
         "id": "song-6-1",
-        "title": "Electric Nights",
-        "artist": "Neon Dreams",
-        "album": "Club Anthems",
-        "duration": "3:28",
-        "coverImage": "assets/img/song.png"
+        "title": "goosebumps",
+        "artist": "Travis Scott",
+        "album": "Birds in the Trap Sing McKnight",
+        "duration": "4:03",
+        "coverImage": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=400&h=400&fit=crop"
       },
       {
         "id": "song-6-2",
-        "title": "Move Your Body",
-        "artist": "Groove Masters",
-        "album": "Dance Revolution",
-        "duration": "3:55",
-        "coverImage": "assets/img/song.png"
+        "title": "Congratulations",
+        "artist": "Post Malone ft. Quavo",
+        "album": "Stoney",
+        "duration": "3:40",
+        "coverImage": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop"
       },
       {
         "id": "song-6-3",
-        "title": "Pulse",
-        "artist": "Bass Drop",
-        "album": "Electronic Energy",
-        "duration": "4:10",
-        "coverImage": "assets/img/song.png"
+        "title": "Mask Off",
+        "artist": "Future",
+        "album": "Future",
+        "duration": "3:24",
+        "coverImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=400&h=400&fit=crop"
       },
       {
         "id": "song-6-4",
-        "title": "Midnight Rave",
-        "artist": "Techno Alliance",
-        "album": "All Night Long",
-        "duration": "5:02",
-        "coverImage": "assets/img/song.png"
+        "title": "Sundress",
+        "artist": "A$AP Rocky",
+        "album": "Testing",
+        "duration": "3:39",
+        "coverImage": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=400&fit=crop"
       },
       {
         "id": "song-6-5",
-        "title": "Feel the Beat",
-        "artist": "Party Squad",
-        "album": "Weekend Warriors",
-        "duration": "3:47",
-        "coverImage": "assets/img/song.png"
+        "title": "XO TOUR Llif3",
+        "artist": "Lil Uzi Vert",
+        "album": "Luv Is Rage 2",
+        "duration": "3:03",
+        "coverImage": "https://images.unsplash.com/photo-1487180144351-b8472da7d491?w=400&h=400&fit=crop"
       }
     ]
   },
   {
     "id": "playlist-7",
     "title": "Rainy Day Blues",
-    "creator": "Morgan Blake",
-    "coverImage": "assets/img/playlist.png",
+    "creator": "Ozias Tumimana",
+    "coverImage": "https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?w=400&h=400&fit=crop",
     "likeCount": 312,
-    "isLiked": false,
+    "liked": false,
+    "genre": "Blues",
     "songs": [
       {
         "id": "song-7-1",
-        "title": "Stormy Weather",
-        "artist": "Blues Brothers",
-        "album": "Classic Blues",
-        "duration": "4:32",
-        "coverImage": "assets/img/song.png"
+        "title": "Marvin's Room",
+        "artist": "Drake",
+        "album": "Take Care",
+        "duration": "5:47",
+        "coverImage": "https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?w=400&h=400&fit=crop"
       },
       {
         "id": "song-7-2",
-        "title": "Raindrops",
-        "artist": "Melancholy Mood",
-        "album": "Gray Skies",
-        "duration": "3:58",
-        "coverImage": "assets/img/song.png"
+        "title": "Godspeed",
+        "artist": "Frank Ocean",
+        "album": "Blonde",
+        "duration": "2:58",
+        "coverImage": "https://upload.wikimedia.org/wikipedia/en/a/a0/Blonde_-_Frank_Ocean.jpeg"
       },
       {
         "id": "song-7-3",
-        "title": "Thunder Soul",
-        "artist": "Storm Chasers",
-        "album": "Weather the Storm",
-        "duration": "5:15",
-        "coverImage": "assets/img/song.png"
+        "title": "Self",
+        "artist": "Khalid",
+        "album": "American Teen",
+        "duration": "3:38",
+        "coverImage": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&h=400&fit=crop"
+      },
+      {
+        "id": "song-7-4",
+        "title": "u",
+        "artist": "Kendrick Lamar",
+        "album": "To Pimp a Butterfly",
+        "duration": "4:28",
+        "coverImage": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=400&h=400&fit=crop"
       }
     ]
   },
   {
     "id": "playlist-8",
     "title": "Indie Discoveries",
-    "creator": "Riley Martinez",
-    "coverImage": "assets/img/playlist.png",
+    "creator": "Ozias Tumimana",
+    "coverImage": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop",
     "likeCount": 678,
-    "isLiked": false,
+    "liked": false,
+    "genre": "Indie",
     "songs": [
       {
         "id": "song-8-1",
-        "title": "Hidden Gem",
-        "artist": "Bedroom Pop",
-        "album": "Underground",
-        "duration": "3:18",
-        "coverImage": "assets/img/song.png"
+        "title": "Feels Like We Only Go Backwards",
+        "artist": "Tame Impala",
+        "album": "Lonerism",
+        "duration": "3:12",
+        "coverImage": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop"
       },
       {
         "id": "song-8-2",
-        "title": "Basement Tapes",
-        "artist": "Garage Band",
-        "album": "DIY Dreams",
-        "duration": "4:05",
-        "coverImage": "assets/img/song.png"
+        "title": "Worst Behavior",
+        "artist": "Drake",
+        "album": "Nothing Was the Same",
+        "duration": "4:36",
+        "coverImage": "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=400&h=400&fit=crop"
       },
       {
         "id": "song-8-3",
-        "title": "Coffee Shop Corner",
-        "artist": "Acoustic Minds",
-        "album": "Small Venues",
-        "duration": "3:42",
-        "coverImage": "assets/img/song.png"
+        "title": "Yonkers",
+        "artist": "Tyler, The Creator",
+        "album": "Goblin",
+        "duration": "4:01",
+        "coverImage": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=400&h=400&fit=crop"
       },
       {
         "id": "song-8-4",
-        "title": "New Wave",
-        "artist": "Fresh Sound",
-        "album": "Debut",
-        "duration": "3:55",
-        "coverImage": "assets/img/song.png"
+        "title": "Baby Blue",
+        "artist": "Action Bronson ft. Chance the Rapper",
+        "album": "Mr. Wonderful",
+        "duration": "3:35",
+        "coverImage": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=400&fit=crop"
       }
     ]
   },
   {
     "id": "playlist-9",
     "title": "90s Nostalgia",
-    "creator": "Chris Thompson",
-    "coverImage": "assets/img/playlist.png",
+    "creator": "Ozias Tumimana",
+    "coverImage": "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=400&h=400&fit=crop",
     "likeCount": 1834,
-    "isLiked": false,
+    "liked": false,
+    "genre": "Retro",
     "songs": [
       {
         "id": "song-9-1",
-        "title": "Rewind",
-        "artist": "Throwback Band",
-        "album": "Decade Greatest",
-        "duration": "4:02",
-        "coverImage": "assets/img/song.png"
+        "title": "Crew",
+        "artist": "GoldLink ft. Brent Faiyaz",
+        "album": "At What Cost",
+        "duration": "4:21",
+        "coverImage": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&h=400&fit=crop"
       },
       {
         "id": "song-9-2",
-        "title": "VHS Dreams",
-        "artist": "Retro Vibes",
-        "album": "Time Machine",
-        "duration": "3:48",
-        "coverImage": "assets/img/song.png"
+        "title": "The Blacker The Berry",
+        "artist": "Kendrick Lamar",
+        "album": "To Pimp a Butterfly",
+        "duration": "5:28",
+        "coverImage": "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=400&h=400&fit=crop"
       },
       {
         "id": "song-9-3",
-        "title": "Mall Rats",
-        "artist": "Pop Culture",
-        "album": "Golden Age",
-        "duration": "3:35",
-        "coverImage": "assets/img/song.png"
+        "title": "911 / Mr. Lonely",
+        "artist": "Tyler, The Creator ft. Steve Lacy",
+        "album": "Flower Boy",
+        "duration": "5:37",
+        "coverImage": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=400&h=400&fit=crop"
       },
       {
         "id": "song-9-4",
-        "title": "Dial-Up Memories",
-        "artist": "Digital Natives",
-        "album": "Y2K",
-        "duration": "4:20",
-        "coverImage": "assets/img/song.png"
+        "title": "Come Down",
+        "artist": "Anderson .Paak",
+        "album": "Malibu",
+        "duration": "4:18",
+        "coverImage": "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=400&h=400&fit=crop"
       },
       {
         "id": "song-9-5",
-        "title": "Saturday Morning",
-        "artist": "Cartoon Network",
-        "album": "Childhood",
-        "duration": "3:12",
-        "coverImage": "assets/img/song.png"
+        "title": "Location",
+        "artist": "Khalid",
+        "album": "American Teen",
+        "duration": "3:39",
+        "coverImage": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=400&h=400&fit=crop"
       }
     ]
   },
   {
     "id": "playlist-10",
     "title": "Acoustic Sessions",
-    "creator": "Jamie Park",
-    "coverImage": "assets/img/playlist.png",
+    "creator": "Ozias Tumimana",
+    "coverImage": "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=400&h=400&fit=crop",
     "likeCount": 521,
-    "isLiked": false,
+    "liked": false,
+    "genre": "Acoustic",
     "songs": [
       {
         "id": "song-10-1",
-        "title": "Unplugged Heart",
-        "artist": "Singer Songwriter",
-        "album": "Stripped Down",
-        "duration": "4:15",
-        "coverImage": "assets/img/song.png"
+        "title": "White Ferrari",
+        "artist": "Frank Ocean",
+        "album": "Blonde",
+        "duration": "4:08",
+        "coverImage": "https://upload.wikimedia.org/wikipedia/en/a/a0/Blonde_-_Frank_Ocean.jpeg"
       },
       {
         "id": "song-10-2",
-        "title": "Guitar Stories",
-        "artist": "Folk Tales",
-        "album": "Campfire Songs",
-        "duration": "3:58",
-        "coverImage": "assets/img/song.png"
+        "title": "Novacane",
+        "artist": "Frank Ocean",
+        "album": "Nostalgia, Ultra",
+        "duration": "3:15",
+        "coverImage": "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=400&h=400&fit=crop"
       },
       {
         "id": "song-10-3",
-        "title": "Wooden Strings",
-        "artist": "Acoustic Dreams",
-        "album": "Natural Sound",
-        "duration": "4:30",
-        "coverImage": "assets/img/song.png"
+        "title": "Garden Shed",
+        "artist": "Tyler, The Creator",
+        "album": "Flower Boy",
+        "duration": "4:07",
+        "coverImage": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop"
+      },
+      {
+        "id": "song-10-4",
+        "title": "Pilot Jones",
+        "artist": "Frank Ocean",
+        "album": "Channel Orange",
+        "duration": "3:03",
+        "coverImage": "https://upload.wikimedia.org/wikipedia/en/2/28/Channel_ORANGE.jpg"
       }
     ]
   }

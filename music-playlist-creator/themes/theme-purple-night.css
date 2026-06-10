@@ -1,0 +1,98 @@
+/* ===================================
+   THEME: PURPLE NIGHT (Cozy Evening)
+   Vibe: Late-night study, dreamy atmosphere
+   =================================== */
+
+:root {
+    /* Soft purple-grey with lavender accents */
+    --bg-primary: #2A2438;
+    --bg-secondary: #342E47;
+    --bg-tertiary: #3E3752;
+    --bg-hover: #4A425E;
+
+    --text-primary: #F5F3FF;
+    --text-secondary: #C4B5FD;
+    --text-muted: #8B7FC7;
+
+    --accent-green: #A78BFA;  /* Soft lavender */
+    --accent-green-hover: #C4B5FD;
+    --accent-red: #FF6B9D;
+
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 8px 24px rgba(167, 139, 250, 0.15);
+    --shadow-xl: 0 20px 60px rgba(167, 139, 250, 0.25);
+
+    --radius-sm: 8px;
+    --radius-md: 14px;
+    --radius-lg: 18px;
+    --radius-xl: 26px;
+}
+
+body {
+    background: linear-gradient(135deg, #2A2438 0%, #1F1A2E 100%);
+}
+
+.site-header {
+    background: rgba(42, 36, 56, 0.95);
+    border-bottom: 1px solid rgba(167, 139, 250, 0.15);
+    box-shadow: 0 4px 24px rgba(167, 139, 250, 0.08);
+}
+
+.site-title {
+    background: linear-gradient(135deg, #A78BFA, #FF6B9D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    filter: drop-shadow(0 0 20px rgba(167, 139, 250, 0.3));
+}
+
+.playlist-card {
+    background: rgba(52, 46, 71, 0.8);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(167, 139, 250, 0.1);
+}
+
+.playlist-card::before {
+    background: linear-gradient(135deg, rgba(167, 139, 250, 0.1), rgba(255, 107, 157, 0.08));
+}
+
+.playlist-card:hover {
+    border-color: rgba(167, 139, 250, 0.3);
+    box-shadow: 0 12px 32px rgba(167, 139, 250, 0.25);
+    transform: translateY(-8px);
+}
+
+.playlist-cover {
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(167, 139, 250, 0.2);
+}
+
+/* Glowing stars effect */
+body::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image:
+        radial-gradient(2px 2px at 20% 30%, rgba(167, 139, 250, 0.4), transparent),
+        radial-gradient(2px 2px at 60% 70%, rgba(196, 181, 253, 0.3), transparent),
+        radial-gradient(1px 1px at 50% 50%, rgba(255, 107, 157, 0.3), transparent),
+        radial-gradient(1px 1px at 80% 10%, rgba(167, 139, 250, 0.3), transparent);
+    background-size: 200% 200%;
+    animation: twinkle 8s ease-in-out infinite;
+    pointer-events: none;
+    z-index: 1;
+}
+
+@keyframes twinkle {
+    0%, 100% { opacity: 0.5; }
+    50% { opacity: 1; }
+}
+
+.main-content {
+    position: relative;
+    z-index: 2;
+}

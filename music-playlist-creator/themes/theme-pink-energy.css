@@ -1,0 +1,131 @@
+/* ===================================
+   THEME: PINK ENERGY (Playful & Bold)
+   Vibe: Y2K aesthetic, energetic, fun
+   =================================== */
+
+:root {
+    /* White base with hot pink and electric blue */
+    --bg-primary: #FAFAFA;
+    --bg-secondary: #FFFFFF;
+    --bg-tertiary: #FFF0F5;
+    --bg-hover: #FFE4F0;
+
+    --text-primary: #1A1A1A;
+    --text-secondary: #FF1493;
+    --text-muted: #888888;
+
+    --accent-green: #FF1493;  /* Deep pink */
+    --accent-green-hover: #FF69B4;
+    --accent-red: #FF4757;
+
+    --shadow-sm: 0 2px 8px rgba(255, 20, 147, 0.1);
+    --shadow-md: 0 4px 12px rgba(255, 20, 147, 0.15);
+    --shadow-lg: 0 8px 24px rgba(255, 20, 147, 0.25);
+    --shadow-xl: 0 20px 60px rgba(255, 20, 147, 0.35);
+
+    --radius-sm: 12px;
+    --radius-md: 16px;
+    --radius-lg: 20px;
+    --radius-xl: 28px;
+}
+
+body {
+    background: linear-gradient(135deg, #FAFAFA 0%, #FFF0F5 50%, #E6F7FF 100%);
+}
+
+.site-header {
+    background: rgba(255, 255, 255, 0.95);
+    border-bottom: 3px solid rgba(255, 20, 147, 0.2);
+    box-shadow: 0 4px 20px rgba(255, 20, 147, 0.1);
+}
+
+.site-title {
+    background: linear-gradient(135deg, #FF1493, #00D4FF, #FF1493);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: gradientShift 4s ease infinite;
+    font-weight: 800;
+}
+
+@keyframes gradientShift {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+}
+
+.playlist-card {
+    background: #FFFFFF;
+    border: 3px solid rgba(255, 20, 147, 0.15);
+    border-radius: 20px;
+    box-shadow: 0 4px 16px rgba(255, 20, 147, 0.08);
+}
+
+.playlist-card::before {
+    background: linear-gradient(135deg, rgba(255, 20, 147, 0.08), rgba(0, 212, 255, 0.05));
+}
+
+.playlist-card:hover {
+    border-color: rgba(255, 20, 147, 0.5);
+    box-shadow: 0 12px 40px rgba(255, 20, 147, 0.3);
+    transform: translateY(-10px) rotate(-1deg);
+}
+
+.playlist-cover {
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(255, 20, 147, 0.2);
+    border: 2px solid rgba(255, 20, 147, 0.1);
+}
+
+/* Bubbly accent elements */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image:
+        radial-gradient(circle at 20% 80%, rgba(255, 20, 147, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(0, 212, 255, 0.08) 0%, transparent 50%),
+        radial-gradient(circle at 40% 40%, rgba(255, 105, 180, 0.06) 0%, transparent 50%);
+    pointer-events: none;
+    z-index: 1;
+}
+
+.main-content {
+    position: relative;
+    z-index: 2;
+}
+
+/* Bold button styling */
+.shuffle-button {
+    background: linear-gradient(135deg, #FF1493, #FF69B4);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.ai-description-button {
+    background: linear-gradient(135deg, #00D4FF, #0099FF);
+    font-weight: 700;
+}
+
+.like-button.liked {
+    animation: heartBurst 0.4s ease;
+}
+
+@keyframes heartBurst {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.4) rotate(5deg); }
+    100% { transform: scale(1) rotate(0deg); }
+}
+
+/* Playful hover effects */
+.nav-link:hover {
+    transform: translateY(-2px);
+}
+
+.playlist-title {
+    font-weight: 800;
+}

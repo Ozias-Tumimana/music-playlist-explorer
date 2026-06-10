@@ -1,0 +1,117 @@
+/* ===================================
+   THEME: RETRO SUNSET (80s Vibes)
+   Vibe: Synthwave, retro aesthetics, warm energy
+   =================================== */
+
+:root {
+    /* Dark base with vibrant retro accents */
+    --bg-primary: #1A1A2E;
+    --bg-secondary: #16213E;
+    --bg-tertiary: #0F3460;
+    --bg-hover: #1F4788;
+
+    --text-primary: #EAEAEA;
+    --text-secondary: #F4C95D;
+    --text-muted: #C89666;
+
+    --accent-green: #FF6B9D;  /* Hot pink */
+    --accent-green-hover: #FF8FB4;
+    --accent-red: #FF4757;
+
+    --shadow-sm: 0 2px 8px rgba(244, 201, 93, 0.15);
+    --shadow-md: 0 4px 12px rgba(255, 107, 157, 0.2);
+    --shadow-lg: 0 8px 24px rgba(255, 107, 157, 0.3);
+    --shadow-xl: 0 20px 60px rgba(255, 107, 157, 0.4);
+
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --radius-xl: 16px;
+}
+
+body {
+    background: linear-gradient(180deg, #1A1A2E 0%, #0F3460 100%);
+    position: relative;
+}
+
+/* Retro grid background */
+body::before {
+    content: '';
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60%;
+    background:
+        linear-gradient(90deg, rgba(244, 201, 93, 0.03) 1px, transparent 1px),
+        linear-gradient(0deg, rgba(244, 201, 93, 0.03) 1px, transparent 1px);
+    background-size: 50px 50px;
+    transform: perspective(500px) rotateX(60deg);
+    transform-origin: bottom;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.site-header {
+    background: rgba(26, 26, 46, 0.95);
+    border-bottom: 2px solid rgba(255, 107, 157, 0.3);
+    box-shadow: 0 4px 20px rgba(255, 107, 157, 0.2);
+}
+
+.site-title {
+    background: linear-gradient(135deg, #F4C95D, #FF6B9D, #A78BFA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0 0 30px rgba(255, 107, 157, 0.5);
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.playlist-card {
+    background: rgba(22, 33, 62, 0.9);
+    border: 2px solid rgba(244, 201, 93, 0.2);
+    position: relative;
+}
+
+.playlist-card::before {
+    background: linear-gradient(135deg, rgba(255, 107, 157, 0.2), rgba(244, 201, 93, 0.1));
+}
+
+.playlist-card:hover {
+    border-color: rgba(255, 107, 157, 0.6);
+    box-shadow: 0 0 40px rgba(255, 107, 157, 0.4), 0 8px 24px rgba(0, 0, 0, 0.4);
+    transform: translateY(-8px) scale(1.02);
+}
+
+.playlist-cover {
+    box-shadow: 0 8px 24px rgba(255, 107, 157, 0.3);
+    border: 2px solid rgba(244, 201, 93, 0.1);
+}
+
+.like-button {
+    text-shadow: 0 0 10px rgba(255, 107, 157, 0.5);
+}
+
+.main-content {
+    position: relative;
+    z-index: 1;
+}
+
+/* Animated gradient accent */
+.site-header::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #F4C95D, #FF6B9D, #A78BFA, #F4C95D);
+    background-size: 200% 100%;
+    animation: gradientShift 3s linear infinite;
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 200% 0%; }
+}
