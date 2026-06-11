@@ -2,7 +2,7 @@
 
 Submitted by: **Ozias Tumimana**
 
-Estimated time spent: **15** hours spent in total
+Estimated time spent: **9** hours spent in total
 
 Deployed Application: [View on GitHub](https://github.com/Ozias-Tumimana/music-playlist-explorer)
 
