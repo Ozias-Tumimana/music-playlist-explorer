@@ -133,7 +133,7 @@ Deployed Application: [View on GitHub](https://github.com/Ozias-Tumimana/music-p
 
 ### Walkthrough Video
 
-[Music Playlist Explorer Walkthrough](ADD_YOUR_LOOM_LINK_HERE)
+[Music Playlist Explorer Walkthrough](https://www.loom.com/share/cd0df2f49756430a9e43d651c52e5fc4)
 
 ### Reflection
 
@@ -156,4 +156,4 @@ The AI descriptions and persistent music player worked smoothly and got good rea
 
 ### Shout out
 
-Shout out to Claude AI for helping me debug the like button event propagation issue and explaining the Fisher-Yates shuffle algorithm. Also thanks to my cohort mates for feedback during code reviews!
+Shoutout david! 
