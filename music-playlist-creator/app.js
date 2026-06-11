@@ -254,15 +254,41 @@ function setupNavigation() {
 
     // Search functionality
     const searchInput = document.getElementById('main-search-input');
+    const searchButton = document.getElementById('search-button');
+    const clearButton = document.getElementById('clear-button');
+
+    // Search on button click
+    searchButton?.addEventListener('click', () => {
+        const query = searchInput.value.trim();
+        if (query) {
+            renderView('search');
+            performSearch(query);
+        }
+    });
+
+    // Search on Enter key
+    searchInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') {
+            const query = searchInput.value.trim();
+            if (query) {
+                renderView('search');
+                performSearch(query);
+            }
+        }
+    });
+
+    // Clear search button
+    clearButton?.addEventListener('click', () => {
+        searchInput.value = '';  // Clear the input field
+        renderView('home');      // Go back to home view with all playlists
+    });
+
+    // Real-time search as you type (keep existing behavior)
     let searchTimeout;
     searchInput.addEventListener('input', (e) => {
         clearTimeout(searchTimeout);
         searchTimeout = setTimeout(() => {
             if (currentView === 'search') {
-                performSearch(e.target.value);
-            } else {
-                renderView('search');
-                document.querySelector('[data-view="search"]').classList.add('active');
                 performSearch(e.target.value);
             }
         }, 300);
@@ -749,6 +775,8 @@ async function getAIDescription(playlist) {
     const songList = playlist.songs.map(s => `"${s.title}" by ${s.artist}`).join(', ');
 
     try {
+        console.log('Requesting AI description with openrouter/auto (free)');
+
         const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
             method: "POST",
             headers: {
@@ -756,7 +784,7 @@ async function getAIDescription(playlist) {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify({
-                model: "meta-llama/llama-3.3-70b-instruct:free",
+                model: "openrouter/auto:free",
                 messages: [
                     { role: "system", content: "You are a music curator. Write 2-3 sentences." },
                     { role: "user", content: `Describe "${playlist.title}" with: ${songList}` }
@@ -766,12 +794,16 @@ async function getAIDescription(playlist) {
 
         if (response.ok) {
             const data = await response.json();
+            console.log('✅ AI description generated successfully');
             return data.choices[0].message.content;
+        } else {
+            console.log(`❌ API failed with status ${response.status}`);
         }
     } catch (error) {
-        console.error(error);
+        console.error('Error getting AI description:', error);
     }
 
+    // Fallback message
     return `A curated collection of ${playlist.songs.length} tracks. Perfect for any mood.`;
 }
 
